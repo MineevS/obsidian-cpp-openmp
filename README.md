@@ -1,4 +1,4 @@
-## [obsidian-execute-code](https://github.com/twibiral/obsidian-execute-code) c/c++ support
+## [obsidian-execute-code](https://github.com/twibiral/obsidian-execute-code) c/c++ openmp support
 
 Use gcc/clang instead of cling in [obsidian-execute-code](https://github.com/twibiral/obsidian-execute-code)
 
@@ -12,16 +12,10 @@ Use gcc/clang instead of cling in [obsidian-execute-code](https://github.com/twi
 
 ## Install
 
-1. download from [github releases](https://github.com/KM911/obsidian-execute-code-c-support/releases)
+1. download from [github releases](https://github.com/KM911/obsidian-cpp-openmp/releases)
 2. go install
 
 ```bash
-go install github.com/KM911/obsidian-execute-code-c-support@latest
+cd ./obsidian-cpp-openmp
+go build .
 ```
-
-3. build from source. Need go 1.18
-
-
-## TODO
-
-* [ ] compiler flags
