@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"obsidian-cpp-openmp"
+	"obsidian-cpp-openmp/util"
 	//"/util"
 
 	//"io/ioutil"
